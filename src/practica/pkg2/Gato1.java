@@ -1,14 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practica.pkg2;
 
-/**
- *
- * @author hp
- */
-public class Gato1 {
+public class Gato1 extends Gato {
+    public int vidas;
+    public String trucos;
+    public Gato1(String nombre, String pais,String trucos,int vidas) {
+        super(nombre, pais);
+        this.vidas=vidas;
+        this.trucos=trucos;
+    }
+    public void AccionGato3(){
+        System.out.println(nombre+" hace el tuco de "+trucos );
+    }
+    public void trucos(){
+        AccionGato3();
+        AccionGato1();
+        AccionGato2();
+    }
+    
+    
     
 }

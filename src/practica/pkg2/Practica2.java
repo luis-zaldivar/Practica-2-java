@@ -29,12 +29,12 @@ public class Practica2 {
 
             System.out.println("Escribe una de las opciones");
             opcion = sn.nextInt();
-
+            
             switch (opcion) {
                 case 1:
                     salir1 = false;
                     while (!salir1) {
-
+                        
                         System.out.println("1. Perro");
                         System.out.println("2. Gato");
                         System.out.println("3. Ave");
@@ -95,7 +95,7 @@ public class Practica2 {
         }
     }
 public static void inicio(){
-    caso1=new Perro1(10," Furby "," se hace el muerto "," Temascalcingo");
+    caso1=new Perro1(10,"Furby "," se hace el muerto "," Temascalcingo");
     raza=posicion.Perro1;
 }
     public static void menuperro() {
