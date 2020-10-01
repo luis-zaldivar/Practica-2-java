@@ -86,7 +86,7 @@ public class Practica2 {
                     System.out.println("Has seleccionado la opcion 3");
                     break;
                 case 4:
-                    salir = true;
+                    salir = true;z
                     break;
                 default:
                     System.out.println("Solo números entre 1 y 4");
