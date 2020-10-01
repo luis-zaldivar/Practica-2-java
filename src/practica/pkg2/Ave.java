@@ -1,14 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practica.pkg2;
 
-/**
- *
- * @author hp
- */
 public class Ave {
-    
+
+    public String alimento;
+    public float peso;
+
+    public Ave(String alimento, float peso) {
+        this.alimento = alimento;
+        this.peso = peso;
+    }
+
+    public static void accion1() {
+        System.out.println("el ave persige a los niños");
+    }
+
+    public static void accion2() {
+        System.out.println("se enculeca y tiene crias");
+    }
 }

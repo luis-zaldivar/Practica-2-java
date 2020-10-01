@@ -12,12 +12,14 @@ public class Gato2 extends Gato {
     }
 
     public void DatosGato2() {
-        System.out.print("nombre: " + nombre + "\ncolor: "+color+"hace el sonido: "+sonido+"viende de: "+pais);
+        System.out.print("nombre: " + nombre + "\ncolor: " + color + "hace el sonido: " + sonido + "viende de: " + pais);
     }
-    public void AccionesGato3(){
-        System.out.println("el gato en las noches ase "+sonido);
+
+    public void AccionesGato3() {
+        System.out.println("el gato en las noches ase " + sonido);
     }
-    public void AccionesTotales(){
+
+    public void AccionesTotales() {
         AccionesGato3();
         AccionGato1();
         AccionGato2();

@@ -13,7 +13,8 @@ public class Corral {
     public static void animal1() {
         System.out.println("pasta en la pradera");
     }
-    public static void animal2(){
+
+    public static void animal2() {
         System.out.println("jala la yunta");
     }
 }
