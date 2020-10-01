@@ -16,7 +16,7 @@ public class Gato1 extends Gato {
         AccionGato1();
         AccionGato2();
     }
-    
-    
-    
+    public void DatosGato1(){
+        System.out.print(trucos+"nombre: "+nombre+"\nvidas: "+vidas+"\nhace el truco: "+trucos+"\n viene de: "+pais);
+    }
 }

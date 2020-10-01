@@ -1,8 +1,8 @@
 package practica.pkg2;
 
 public class Gato {
-    String nombre;
-    String pais;
+    public String nombre;
+    public String pais;
     public Gato(String nombre, String pais) {
         this.nombre = nombre;
         this.pais = pais;

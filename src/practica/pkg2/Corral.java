@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practica.pkg2;
 
-/**
- *
- * @author hp
- */
 public class Corral {
-    
+
+    public String sexo;
+    public int edad;
+
+    public Corral(String sexo, int edad) {
+        this.sexo = sexo;
+        this.edad = edad;
+    }
+
+    public static void animal1() {
+        System.out.println("pasta en la pradera");
+    }
+    public static void animal2(){
+        System.out.println("jala la yunta");
+    }
 }
